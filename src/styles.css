@@ -1,5 +1,10 @@
-/* html {
-    background: lightgray;
-} */
+.parallax {
+    background: url(https://www.publicdomainpictures.net/pictures/70000/velka/stars-in-the-night-sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
 
 
