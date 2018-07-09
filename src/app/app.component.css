@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+
+.input1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+}
+
+.parallax {
+    background: url(https://www.publicdomainpictures.net/pictures/70000/velka/stars-in-the-night-sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.edit:hover {
+    color: orange;
+}
+
+.chore {
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;  
+   margin-top: 20px; 
+   font-family: 'Poiret One', cursive;
+   font-size: 50px;
+   background: white;
+   border-radius: 20px;
+ }
+

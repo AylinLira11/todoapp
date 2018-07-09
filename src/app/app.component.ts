@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  todoInput = '';
+  thingsToDo = [];  
+  
+   createTodo() {
+   this.thingsToDo.push(this.todoInput);
+   this.todoInput = "";
+   }  
+
+   editTodo(chore) {
+     let index = this.thingsToDo.indexOf(chore);
+     this.thingsToDo[index] = prompt('Please edit chore')
+     
+   }
+
+    deleteTodo (chore){
+      let index = this.thingsToDo.indexOf(chore);
+     this.thingsToDo.splice(index,1) 
+     
+   }
+
+   
+
+
 }
