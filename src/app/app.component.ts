@@ -10,7 +10,10 @@ export class AppComponent {
   thingsToDo = [];  
   
    createTodo() {
-   this.thingsToDo.push(this.todoInput);
+   let trimmedInput = this.todoInput.trim();
+   if (trimmedInput !== "") {
+     this.thingsToDo.push(this.todoInput);
+   } 
    this.todoInput = "";
    }  
 
