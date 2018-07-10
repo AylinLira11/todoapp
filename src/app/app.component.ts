@@ -20,7 +20,7 @@ export class AppComponent {
 
    editTodo(chore) {
      let index = this.thingsToDo.indexOf(chore);
-     this.thingsToDo[index] = prompt('Please edit chore')
+     this.thingsToDo[index] = prompt('Please edit chore', this.thingsToDo[index])
      
    }
 
@@ -29,6 +29,12 @@ export class AppComponent {
      this.thingsToDo.splice(index,1) 
      
    }
+
+   deleteAll () {
+     this.thingsToDo = [];
+
+   }
+
 
    
 

@@ -36,3 +36,19 @@ img {
    border-radius: 20px;
  }
 
+ .deleteAll {
+     position: absolute;
+     width: 150px;
+     height: 50px;
+     margin-left: 1200px;
+     margin-top: -100px;
+     border-radius: 20px;
+     font-family: 'Poiret One', cursive;
+     font-size: 20px;
+     background: red;
+     border: black;
+ }
+
+
+
+
